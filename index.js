@@ -31,5 +31,17 @@ app.listen(3000, () =>{
 });
 
 
+// URL parameters
+
+// act like our database
+const fruits = ['apple', 'pear', 'banana'];
+
+// create teh route that will show each individual
+//fruit based on their index number
+
+app.get('/fruits/.index', (req, res) => {
+	
+})
+
 
 
